@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Operating system files
+.DS_Store
+
+# Log files
+*.log*
+
+# IDE specific
+.idea/
+.vscode/
+
+# Package manager files
+package-lock.json
+npm-debug.log
+
+# Build and coverage folders
+build/
+coverage/
+
+# Miscellaneous files
+*~
+*.pyc
+.grunt
+_SpecRunner.html
+__benchmarks__
+
+# React Devtools-related (only if needed)
+packages/react-devtools-core/dist/
+packages/react-devtools-extensions/chrome/build/
+packages/react-devtools-extensions/firefox/build/
+
+# Your other custom folders
+remote-repo/
+.module-cache/
+fixtures/dom/public/react-dom.js
+fixtures/dom/public/react.js
+
+# Other unneeded files
+*.sublime-project
+*.sublime-workspace
+*.iml
